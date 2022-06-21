@@ -1,1 +1,3 @@
-# russian_loanwords_in_yakut
+# A language identification classifier to extract Russian loanwords from Yakut texts.
+
+A general-purpose language classifier that uses trigrams to determine the input language has been trained on a special dataset to detect Russian loanwords in Yakut texts. It is expected to capture non-assimilated Russian loanwords, that is, word forms whose stems retain the original spelling in Yakut texts. This means that Russian loan word like "оскуола" (школа), "харандаас" (карандаш), "норуот" (народ) that underwent spelling changes accordingly to Yakut phonetics should not be detected. On the other hand, Russian loan words that did not experiment spelling changes should be identified even if they appear with attached suffixes, for example "рудник*тар*" (рудники), "Москва*ҕа*" (в Москве) or Yakut inflections like "федераль*ай*" (федеральный), "социальн*ай*" (социальный). 
